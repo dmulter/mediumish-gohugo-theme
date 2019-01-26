@@ -1,8 +1,8 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-Version: 1.0.22 
-License: https://www.wowthemes.net/freebies-license/ 
+/*
+Template Name: Mediumish
+Copyright: Sal, WowThemes.net, https://www.wowthemes.net
+Version: 1.0.22
+License: https://www.wowthemes.net/freebies-license/
 */
 .mainheading {
     padding:1rem 0rem;
@@ -36,6 +36,39 @@ pre {
 }
 .main-content {
    min-height:300px;
+}
+.main-subscribe {
+    text-align: center;
+}
+.main-subscribe form {
+   display: inline-block;
+}
+.main-subscribe input[type="email"] {
+    font-size:0.85rem;
+    padding:3px 5px 3px 10px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border:1px solid #ddd;
+    border-right:0;
+    margin-right:-10px;
+    height:34px;
+    letter-spacing:0.5px;
+    margin-left:5px;
+}
+.main-subscribe input[type="submit"] {
+    background-color:#1C9963;
+    border:1px solid #1C9963;
+    color:rgba(255,255,255,1);
+    fill:rgba(255,255,255,1);
+    font-size:0.85rem;
+    border-radius:0;
+    padding:4px 10px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    font-weight:600;
+    height:34px;
+    letter-spacing:0.5px;
+    cursor: pointer;
 }
 .site-content {
     min-height: 60vh;
@@ -580,7 +613,7 @@ span.navigation {
 iframe {
    max-width:100%;
 }
-.transpdark {    
+.transpdark {
     background: rgba(0,0,0,0.75);
     color: #fff;
 }
@@ -602,7 +635,7 @@ iframe {
         margin:0;
    }
 }
-.jumbotron.fortags { 
+.jumbotron.fortags {
          margin-top: 3rem;
          padding:0;
          border-radius:0;
