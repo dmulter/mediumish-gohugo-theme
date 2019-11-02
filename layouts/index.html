@@ -28,7 +28,8 @@
                 <h2><span>Recent Posts</span></h2>
             </div>
             <div class="row listrecent">
-                {{ $post_paginator := .Paginate (.Pages) 3 }}
+                {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+                {{ $post_paginator := .Paginate ($pages) 3 }}
                 {{ range $post_paginator.Pages }}
                     {{- partial "list-partials/postbox.html" . -}}
                 {{end}}
